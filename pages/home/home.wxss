@@ -1,45 +1,4 @@
 /**index.wxss**/
-
-.rx__bds{
-    position: relative;
-    height: 195rpx;
-    width: 700rpx;
-    top: -17px;
-    right: -12px;
-    /* margin: 0 14px; */
-
-/* background-color: red; */
-    /* border-radius: 10px; */
-}
-.rx__bds image{
-    height: 100vh;
-    width: 100vw;
-    border-radius: 10px 10px;
-}
-
-.rx__bdhb{
-    position: relative;
-   height:400px ;
-   width: 355px;
-   /* background: green; */
-   top:100px;
-   right: -10px;
-}
-.rx__bdhb .rx__bdhb_img{
-    height: 400px;
-    width: 355px;
-}
-.rx__bdmd{
-    position: relative;
-    height: 100px;
-    width: 355px;
-    top: 120px;
-    right: -10px;
-}
-.rx__bdmd .rx__bdmd_img{
-    height: 100px;
-    width: 355px;
-}
 .rx__fd{
 /* background-color: red; */
 position: relative;

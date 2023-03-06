@@ -1,29 +1,8 @@
 <view class="page home">
+    <rx__banners1 />
     <rx__top /> 
-    <view class="rx__bds">
-        <swiper class="rx_swiper" 
-        indicator-dots='true'
-        indicator-active-color='white'
-        circular='true'
-        autoplay='true'
-        interval='3000'
-        >
-            <block wx:for="{{swipers}}" wx:key="id">
-                <swiper-item>
-                    <navigator>
-                        <image src="{{item.pic}}" />
-                    </navigator>
-                </swiper-item>
-            </block>
-        </swiper>
-    </view>
+    <rx__banners2 />
     <rx__bd />
-        <view class="rx__bdhb">
-        <image src="/images/bdhb.png" class="rx__bdhb_img"/>
-        </view>
-        <view class="rx__bdmd">
-            <image src="/images/bdmd.png" class="rx__bdmd_img"/>
-        </view>
         <view class="rx__fd">
 <view class="rx__scroll_top">
 <van-tabs animated

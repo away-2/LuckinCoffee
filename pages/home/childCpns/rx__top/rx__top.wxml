@@ -1,21 +1,4 @@
 <!--pages/index/childCpns/rx__top/rx__top.wxml-->
-<view class="rx_hd">
-        <swiper class="rx_banners" 
-        indicator-dots='true'
-        indicator-active-color='#ff5777'
-        circular='true'
-        autoplay='true'
-        interval='3000'
-        >
-            <block wx:for="{{slides}}" wx:key="id">
-                <swiper-item>
-                    <navigator>
-                        <image src="{{item.image}}" />
-                    </navigator>
-                </swiper-item>
-            </block>
-        </swiper>
-    </view>
     <view class="rx__bd">
         <view class="rx_bdtop">
             <view class="rx_bdtopl"> Lucky you~ 跟幸运打个招呼</view>

@@ -1,0 +1,18 @@
+<!--components/rx__banners2/rx__banners2.wxml-->
+<view class="rx__bds">
+        <swiper class="rx_swiper" 
+        indicator-dots='true'
+        indicator-active-color='white'
+        circular='true'
+        autoplay='true'
+        interval='3000'
+        >
+            <block wx:for="{{swipers}}" wx:key="id">
+                <swiper-item>
+                    <navigator>
+                        <image src="{{item.pic}}" />
+                    </navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>

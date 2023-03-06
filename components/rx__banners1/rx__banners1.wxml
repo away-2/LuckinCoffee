@@ -1,0 +1,18 @@
+<!--pages/home/childCpns/rx__banners1/rx__banners1.wxml-->
+<view class="rx_hd">
+        <swiper class="rx_banners" 
+        indicator-dots='true'
+        indicator-active-color='#ff5777'
+        circular='true'
+        autoplay='true'
+        interval='3000'
+        >
+            <block wx:for="{{slides}}" wx:key="id">
+                <swiper-item>
+                    <navigator>
+                        <image src="{{item.image}}" />
+                    </navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>

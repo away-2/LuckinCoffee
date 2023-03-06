@@ -10,7 +10,9 @@ Component({
     /**
      * 组件的初始数据
      */
-    data: {
+    data: { 
+     
+     
 
     },
 
@@ -31,9 +33,8 @@ Component({
             if (res.errMsg === "request:ok") {
               let data = res.data;
               // 解构
-              let {nav, goods} = data  
+              let {goods} = data  
               this.setData({
-                  nav:nav,
                   goods:goods
               })
             }
@@ -42,6 +43,6 @@ Component({
             console.log('error')
           }
         })
-      },
+      }
   })
   

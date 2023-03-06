@@ -53,3 +53,9 @@
             </scroll-view>
         </view>
         </view>
+        <view class="rx__bdhb">
+        <image src="/images/bdhb.png" class="rx__bdhb_img"/>
+        </view>
+        <view class="rx__bdmd">
+            <image src="/images/bdmd.png" class="rx__bdmd_img"/>
+        </view>

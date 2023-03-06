@@ -1,0 +1,8 @@
+/* pages/home/childCpns/rx__banners1/rx__banners1.wxss */
+.rx_banners {
+    height: 600rpx;
+}
+.rx_banners image{
+  width: 100vw;
+  height: 600rpx;
+}

@@ -1,0 +1,17 @@
+/* components/rx__banners2/rx__banners2.wxss */
+.rx__bds{
+    position: relative;
+    height: 195rpx;
+    width: 700rpx;
+    top: -17px;
+    right: -12px;
+    /* margin: 0 14px; */
+
+/* background-color: red; */
+    /* border-radius: 10px; */
+}
+.rx__bds image{
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10px 10px;
+}

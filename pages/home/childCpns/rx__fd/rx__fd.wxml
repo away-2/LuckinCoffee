@@ -1,4 +1,5 @@
 <!--pages/index/childCpns/rx__fd/rx__fd.wxml-->
+<view class="rx__fd">
 <view class="rx__scroll_top">
 <van-tabs animated
   active="{{active}}"
@@ -6,13 +7,14 @@
    title-inactive-color="#ccc"
    title-active-color="#000000"
 >
-<van-tab title="年货节"><view class="rx__scroll_button">
+<van-tab title="年货节">
+<view class="rx__scroll_button">
 <van-grid column-num="2" class="scroll_button">
     <van-grid-item use-slot class="scroll_button_item"
     wx:key="id"
     wx:for="{{goods}}"
     >  
-    <image class="goods" src="{{item.pic}}"/>
+    <image class="image" src="{{item.pic}}"/>
     <view class="title">{{item.title}}</view>
     <view class="price">{{item.price}}</view>
     <view class="sell">{{item.sell}}</view>
@@ -26,7 +28,7 @@
     wx:key="id"
     wx:for="{{goods}}"
     >  
-    <image class="goods" src="{{item.pic}}"/>
+    <image class="image" src="{{item.pic}}"/>
     <view class="title">{{item.title}}</view>
     <view class="price">{{item.price}}</view>
     <view class="sell">{{item.sell}}</view>
@@ -39,7 +41,7 @@
     wx:key="id"
     wx:for="{{goods}}"
     >  
-    <image class="goods" src="{{item.pic}}"/>
+    <image class="image" src="{{item.pic}}"/>
     <view class="title">{{item.title}}</view>
     <view class="price">{{item.price}}</view>
     <view class="sell">{{item.sell}}</view>
@@ -52,7 +54,7 @@
     wx:key="id"
     wx:for="{{goods}}"
     >  
-    <image class="goods" src="{{item.pic}}"/>
+    <image class="image" src="{{item.pic}}"/>
     <view class="title">{{item.title}}</view>
     <view class="price">{{item.price}}</view>
     <view class="sell">{{item.sell}}</view>
@@ -63,3 +65,4 @@
 </van-tabs>
 </view>
 
+</view>

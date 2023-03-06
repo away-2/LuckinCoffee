@@ -1,4 +1,8 @@
 {
     "component": true,
-    "usingComponents": {}
+    "usingComponents": {
+        "van-tab": "/miniprogram_npm/@vant/weapp/tab",
+        "van-grid":"/miniprogram_npm/@vant/weapp/grid",
+        "van-grid-item":"/miniprogram_npm/@vant/weapp/grid-item"
+    }
 }

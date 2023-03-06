@@ -187,3 +187,26 @@
     font-size: 10pt;
     color: #fc9078;
 }
+.rx__bdhb{
+    position: relative;
+   height:400px ;
+   width: 355px;
+   /* background: green; */
+   top:100px;
+   right: -10px;
+}
+.rx__bdhb .rx__bdhb_img{
+    height: 400px;
+    width: 355px;
+}
+.rx__bdmd{
+    position: relative;
+    height: 100px;
+    width: 355px;
+    top: 120px;
+    right: -10px;
+}
+.rx__bdmd .rx__bdmd_img{
+    height: 100px;
+    width: 355px;
+}
