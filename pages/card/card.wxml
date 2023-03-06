@@ -1,0 +1,14 @@
+<!--pages/card/card.wxml-->
+<view class="rx__card">
+<swiper>
+    <swiper-item>
+        <image src="https://img02.luckincoffeecdn.com/group2/M00/5B/75/CtwiPGI0d3-AZoSKAAabBnf4AX4378.jpg_.webp"/>
+    </swiper-item>
+    
+    <swiper-item>
+        <image src="https://img02.luckincoffeecdn.com/group1/M00/6D/A0/CtwhA2JrU3CANDBvAAL8NXNCZB4636.jpg_.webp" />
+    </swiper-item>
+</swiper>
+</view>
+ <rx_left /> 
+ <rx_right />

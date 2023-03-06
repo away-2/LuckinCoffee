@@ -1,0 +1,26 @@
+/* pages/index/childCpns/rx__fd/rx__fd.wxss */
+.rx__fd{
+    /* background-color: red; */
+    position: relative;
+    top:140px;
+    }
+     .goods{
+        position: relative;
+        width: 350rpx;
+        height: 260rpx;
+        /* padding-top: 10rpx; */
+    }
+    .title{
+        font-size: 11pt;
+        height: 20px;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .price{
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .sell{
+        font-size: 9pt;
+        color: #bababa;
+    }

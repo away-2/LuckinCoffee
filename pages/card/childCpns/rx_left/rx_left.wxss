@@ -1,0 +1,69 @@
+/* pages/card/childCpns/rx_left/rx_left.wxss */
+.rx_card_yh image{
+    height: 200rpx;
+    width: 310rpx;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.yh_price{
+    position: absolute;
+    left: 50px;
+    top: 210px;
+    color:#775a32 ;
+    font-size: 18pt;
+}
+.yh_price1{
+    position: absolute;
+    right: 65px;
+    top: 210px;
+    color:#c2a37b ;
+    font-size: 18pt;
+
+}
+.rx_card_tj image{
+    width: 700rpx;
+    height: 250rpx;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    top:40px;
+}
+.rx_card_xtj image{
+    width: 700rpx;
+    height: 450rpx;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    top:50px;
+
+}
+.rx_card_tq1 image{
+    width: 700rpx;
+    height: 200rpx;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    top:60px;
+
+}
+.rx_card_tq2 image{
+    width: 700rpx;
+    height: 200rpx;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    top:70px;
+
+}
+.rx_card_tq3 image{
+    width: 700rpx;
+    height: 200rpx;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    top:80px;
+
+}

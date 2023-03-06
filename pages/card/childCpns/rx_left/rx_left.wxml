@@ -1,0 +1,25 @@
+<!--pages/card/childCpns/rx_left/rx_left.wxml-->
+
+<view class="rx_card_yh">
+<image src="https://img02.luckincoffeecdn.com/group1/M00/EF/2C/CtwhA2I9l-SAD1cjAADjWCeRgv4930.png_.webp" />
+<view class="yh_price">￥9.90</view>
+
+<image src="https://img02.luckincoffeecdn.com/group1/M00/EF/2D/CtwhA2I9mHSAFeTxAABMu8qwobc709.png_.webp" />
+<view class="yh_price1">￥15.90</view>
+</view>
+<view class="rx_card_tj">
+<image src="https://img02.luckincoffeecdn.com/group2/M00/7C/C8/CtwiPGKYXSmAc9mwAADTe6jNoOA480.png_.webp" />
+</view>
+<view class="rx_card_xtj">
+<image src="https://img02.luckincoffeecdn.com/group1/M00/8E/49/CtwhAmPfu8iAEtyOAAe05Dls7F0542.png_.webp" mode=""/>
+
+</view>
+<view class="rx_card_tq1">
+<image src="https://img02.luckincoffeecdn.com/group1/M00/63/3B/CtwhA2N3SnOAFlMtAAK9WBkAVl8088.png_.webp" mode=""/>
+</view>
+<view class="rx_card_tq2">
+<image src="https://img02.luckincoffeecdn.com/group2/M00/1C/2E/CtwiPWIcfQ-AKTOyAACDW4NCnt4117.png_.webp" mode=""/>
+</view>
+<view class="rx_card_tq3">
+<image src="https://img02.luckincoffeecdn.com/group2/M00/2F/B3/CtwiPWPl6JSAK5suAAHyjgUKimM322.png_.webp" mode=""/>
+</view>

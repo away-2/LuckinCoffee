@@ -1,0 +1,17 @@
+<view class="page">
+<van-sticky>
+  <rx__top />
+ <van-tabs animated
+  active="{{active}}"
+   color="#0022ab" swipeable sticky 
+   title-active-color="#000000">
+   <van-tab title="经典菜单">
+   <rx__button />
+   1
+   </van-tab>
+   <van-tab title="超优惠😍"></van-tab>
+   <van-tab title="兔年第一杯"></van-tab>
+   <van-tab title="我的常点"></van-tab>
+ </van-tabs>
+ </van-sticky>
+  </view>

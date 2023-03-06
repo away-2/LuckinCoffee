@@ -1,0 +1,16 @@
+<!--pages/card/childCpns/rx_right/rx_right.wxml-->
+<view class="rx_card__right">
+    <van-cell title="单元格" is-link />
+<van-dialog
+  use-slot
+  title="兑换会员卡"
+  show="{{ show }}"
+  show-cancel-button
+  confirm-button-open-type="getUserInfo"
+  bind:close="onClose"
+  bind:getuserinfo="getUserInfo"
+>
+  <image src="https://img.yzcdn.cn/1.jpg" />
+</van-dialog>
+
+</view>

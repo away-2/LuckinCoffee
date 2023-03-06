@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "rx__top":"./childCpns/rx__top/rx__top",
+        "rx__button":"./childCpns/rx__button/rx__button"
+        
+    }
+}

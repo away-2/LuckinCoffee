@@ -1,0 +1,6 @@
+/* pages/card/childCpns/rx_right/rx_right.wxss */
+.rx_card__right{
+    background-color: red;
+    position: relative;
+    top: 100px;
+}

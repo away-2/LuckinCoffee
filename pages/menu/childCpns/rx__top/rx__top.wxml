@@ -1,0 +1,30 @@
+<!--pages/menu/childCpns/rx__top/rx__top.wxml-->
+<view class="rx__top">
+
+<view class="rx_search_img">
+<view class="pd_img">
+<image src="/images/bz.png" class="left_img"/>
+<text class="txt">拼单</text>
+</view>
+<view class="rx-hd">
+  <view class="rx-hd__search" bindtap="gotoSearch">
+    <van-search placeholder="兔年第一杯🐇" disabled/>
+  </view>
+</view>
+</view>
+
+  <view class="dz">
+  <view class="dz_all">
+  <view class="dz_1">观澜佳纷天地店>
+  <view class="dz_2">距您2.8km</view></view>
+  </view>
+   <view class="wmzt">
+   <view class="wm">外卖</view>
+   <view class="zt">自提</view>
+   </view>
+   </view>
+   <view class="rx_zimu">
+   <image src="/images/laba.png" mode=""/>
+   新年瑞幸！双兔饮品 新春上新~
+   </view>
+</view>

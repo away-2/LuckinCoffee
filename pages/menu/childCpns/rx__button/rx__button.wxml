@@ -1,0 +1,24 @@
+<!--pages/menu/childCpns/rx__button/rx__button.wxml-->
+
+<van-sidebar 
+active-key="{{ activeKey }}"
+bind:change="{{onChange}}"
+style="width: 200px;"
+>
+
+ 
+  <van-sidebar-item title="爆款套餐" />
+  <van-sidebar-item title="生酪拿铁" />
+  <van-sidebar-item title="丝绒拿铁" />
+  <van-sidebar-item title="生椰家族" />
+  <van-sidebar-item title="厚乳拿铁" />
+  <van-sidebar-item title="小黑杯" />
+  <van-sidebar-item title="瑞纳冰®" />
+  <van-sidebar-item title="经典拿铁" />
+  <van-sidebar-item title="大师咖啡" />
+  <van-sidebar-item title="不喝咖啡" />
+  <van-sidebar-item title="甜品小点" />
+  <van-sidebar-item title="烘焙轻食" />
+  <van-sidebar-item title="经典饮品" /> 
+
+</van-sidebar>

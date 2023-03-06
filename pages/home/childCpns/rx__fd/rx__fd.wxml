@@ -1,0 +1,65 @@
+<!--pages/index/childCpns/rx__fd/rx__fd.wxml-->
+<view class="rx__scroll_top">
+<van-tabs animated
+  active="{{active}}"
+   color="blue" swipeable sticky
+   title-inactive-color="#ccc"
+   title-active-color="#000000"
+>
+<van-tab title="年货节"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view>
+</van-tab>
+<van-tab title="颜值水杯"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="家具日用"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="冲调零食"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="更多>">加载中...</van-tab>
+</van-tabs>
+</view>
+

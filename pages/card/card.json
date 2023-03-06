@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "rx_left":"./childCpns/rx_left/rx_left",
+        "rx_right":"./childCpns/rx_right/rx_right"
+    }
+}
