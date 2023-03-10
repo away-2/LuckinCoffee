@@ -7,7 +7,7 @@
    title-active-color="#000000">
    <van-tab title="经典菜单">
    <rx__button />
-   1
+   
    </van-tab>
    <van-tab title="超优惠😍"></van-tab>
    <van-tab title="兔年第一杯"></van-tab>

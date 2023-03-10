@@ -1,5 +1,5 @@
 <!--pages/menu/childCpns/rx__button/rx__button.wxml-->
-
+<!-- 
 <van-sidebar 
 active-key="{{ activeKey }}"
 bind:change="{{onChange}}"
@@ -21,4 +21,14 @@ style="width: 200px;"
   <van-sidebar-item title="烘焙轻食" />
   <van-sidebar-item title="经典饮品" /> 
 
-</van-sidebar>
+</van-sidebar> -->
+<van-tree-select
+  items="{{ items }}"
+  height="55vw"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+>
+  <image src="https://img.yzcdn.cn/vant/apple-1.jpg" slot="content" />
+</van-tree-select>

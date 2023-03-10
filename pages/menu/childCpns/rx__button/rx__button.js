@@ -12,12 +12,26 @@ Component({
      * 组件的初始数据
      */
     data: {
-      activeKey: 0,
+      items:[
+        {
+          "id" : 1,
+          "MenuName": 爆款套餐
+        },
+        {
+          "id" : 2,
+          "MenuName": "生酪拿铁"
+        },{
+          "id" : 3,
+          "MenuName": "丝绒拿铁"
+        }
+
+        
+
+      ],
+      
     },
       
-    onChange(event) {
-      Notify({ type: 'primary', message: event.detail });
-    },
+    
     /**
      * 组件的方法列表
      */
